@@ -63,6 +63,7 @@ body {
     text-decoration: none;
 }
 
+
 .nav-links:hover {
     color: orange;
     transition: all 0.2 ease-out;
@@ -81,6 +82,33 @@ body {
     border-radius: 9px;
     border: solid 1px grey;
     transition: all 0.3s ease-out;
+}
+
+.download-btn {
+    background-color: var(--darkgray);
+    padding: 8px 16px;
+    border-radius: 9px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.download-btn:hover {
+    background-color: gray;
+    color: white;
+    padding: 5px, 15px;
+    border-radius: 9px;
+    border: solid 1px var(--darkgray);
+    transition: all 0.3s ease-out;
+}
+
+.download-container {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
 }
 
 .menu-toggle .bar {
