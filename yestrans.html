@@ -1,0 +1,157 @@
+<html>
+
+    <style>
+    .tri {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    background-color: deepskyblue;
+    }
+    .tri2 {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    background-color: dodgerblue;
+    transform: scale(2);
+    animation: expand 5s linear infinite;
+    }
+
+    @keyframes expand {
+        0% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(2);
+        }
+      }
+
+    .h2right {
+    color: white;
+	font-size: 12px;
+	font-family: "dosis";
+	text-align: center;
+	display: inline-block;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    transform: translateX(-50%) translateY(-50%);
+    }
+    .h2left {
+    color: white;
+	font-size: 12px;
+	font-family: "dosis";
+	text-align: center;
+	display: inline-block;
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    transform: translateX(-50%) translateY(-50%);
+    }
+    .h3right {
+    color: white;
+	font-size: 20px;
+	font-family: "dosis";
+	text-align: center;
+	display: inline-block;
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translateX(-50%) translateY(-50%);
+    }
+    .h3left {
+    color: white;
+	font-size: 20px;
+	font-family: "dosis";
+	text-align: center;
+	display: inline-block;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translateX(-50%) translateY(-50%);
+    }
+    h4 {
+	color: white;
+	font-size: 24px;
+	font-family: dosis;
+	text-align: center;
+	display: block;
+	margin: auto;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    }
+    a {
+	
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	
+	}
+	
+	.btn {
+	
+    background-color: orange;
+    border-radius: 360px;
+	width: 125px;
+	height: 125px;
+    display: block;
+	margin: auto;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+	}
+    .btn:hover {
+	
+	background-color: deepskyblue;
+	transition: all 0.3s ease-out;
+	
+	}
+    .darkbox {
+	
+    display: inline-block;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+	background-color: gray;
+    }
+    </style>
+
+    <body bgcolor="gray">
+         <div class="tri">
+            <h2 class="h3right">60°</h2>
+            <h2 class="h3left">60°</h2>
+        </div>
+
+        <div class="tri2">
+            <h2 class="h2right">60°</h2>
+            <h2 class="h2left">60°</h2>
+        </div>
+
+        <div class="darkbox">
+			<a href="notrans.html" class="btn"><h4>No Animation</h4></a>
+		</div>
+
+    </body>
+
+</html>
