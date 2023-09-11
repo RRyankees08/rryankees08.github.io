@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+:root {
+	--darkgray: #545454;
+}
+
+body {
+	margin: 0;
+}
+
+h1 {
+	color: white;
+	font-family: "dosis";
+	font-size: 96px;
+	text-align: center;
+  	margin: auto;
+  	padding: 300px 0;
+}
+
+.titlebox{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 25px;
+  background-image: url(assets/bg.png);
+}
+
+.picture {
+	background-color: var(--darkgray);
+	width: 680;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 25px;
+	margin-right: 25px;
+	padding-right: 25px;
+	float: left;
+	vertical-align: center;
+}
+
+.picturelong {
+	background-color: var(--darkgray);
+	width: 680;
+	height: 525px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 25px;
+	margin-right: 25px;
+	float: left;
+	vertical-align: center;
+}
+
+.centered {
+	width:100%;
+	display: flex;
+	justify-content: center;
+}
+
+img {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+p {
+	color: white;
+	font-family: "Rubik";
+	font-size: 18px;
+}
+
+h3 {
+	color: white;
+	font-family: "Rubik";
+}
+
+h2 {
+	color: white;
+	font-family: "Rubik";
+}
+
+.playgame{
+	width:100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+
+.arrow {
+  background-image: url(assets/arrow.png);
+  background-size: 50px 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 80px;
+  right: calc(50%);
+}
